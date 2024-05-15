@@ -1,0 +1,6 @@
+
+h
+java:S1301	"KReplace this "switch" statement by "if" statements to increase readability.(öòÊ8ŠÊ¸ò1
+W
+java:S1118":Add a private constructor to hide the implicit public one.(å£§8Ê¸ò1
+u	java:S131	"YComplete cases by adding the missing enum constants or add a default case to this switch.(öòÊ8â¿ò1

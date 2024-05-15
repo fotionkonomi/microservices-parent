@@ -1,0 +1,29 @@
+
+X
+java:S6813%"BRemove this field injection and use constructor injection instead.(êæÄŞ
+X
+java:S6813("BRemove this field injection and use constructor injection instead.(êæÄŞ
+X
+java:S6813+"BRemove this field injection and use constructor injection instead.(êæÄŞ
+X
+java:S6813-"BRemove this field injection and use constructor injection instead.(êæÄŞ
+w
+java:S3305&"\Inject this field value directly into "authenticationManager", the only method that uses it.(¿ì§’ıÿÿÿÿ
+u
+java:S3305)"ZInject this field value directly into "securityFilterChain", the only method that uses it.(­”¬ëıÿÿÿÿ
+X
+java:S1874"BRemove this use of "EnableGlobalMethodSecurity"; it is deprecated.(ö­ê×
+]
+java:S5738?"HRemove this call to a deprecated method, it has been marked for removal.(ßÒ£E
+V
+java:S1128";Remove this unused import 'lombok.RequiredArgsConstructor'.(ÑØúøÿÿÿÿ
+f
+java:S1128"KRemove this unused import 'org.springframework.security.config.Customizer'.(Ïóœ¬ùÿÿÿÿ
+
+java:S1128"sRemove this unused import 'org.springframework.security.config.annotation.web.configuration.WebSecurityCustomizer'.(†×¥ªüÿÿÿÿ
+ˆ
+java:S1128"rRemove this unused import 'org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer'.(Ç¼Î
+x
+java:S1128"]Remove this unused import 'org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder'.(åÅÚ…ûÿÿÿÿ
+v
+java:S1128"`Remove this unused import 'org.springframework.security.web.util.matcher.AntPathRequestMatcher'.(¼¸ö
