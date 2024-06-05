@@ -1,7 +1,9 @@
 package al.run.notificationservicemodule;
 
 import al.run.notificationservicemodule.events.OrderPlacedEvent;
+import al.run.notificationservicemodule.services.NotificationService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.kafka.annotation.KafkaListener;
@@ -14,8 +16,4 @@ public class NotificationServiceApplication {
         SpringApplication.run(NotificationServiceApplication.class, args);
     }
 
-    @KafkaListener(topics = "notificationTopic")
-    public void handleNotification(OrderPlacedEvent orderPlacedEvent) {
-        log.info("Order with id: " + orderPlacedEvent.getOrderId() + " was placed by user: " + orderPlacedEvent.getUserId());
-    }
 }

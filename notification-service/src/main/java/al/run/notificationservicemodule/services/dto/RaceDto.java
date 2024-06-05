@@ -14,7 +14,7 @@ public class RaceDto {
     private BigDecimal price;
     private Double distance;
     private String location;
-    @JsonFormat(pattern = "yyyy-MM-dd HH:MM:SS")
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "CET")
     private Date startTime;
     private Integer elevationGain;
 }

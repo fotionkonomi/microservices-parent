@@ -57,6 +57,8 @@ public class SecurityConfig {
                 .authorizeHttpRequests(req ->
                         req.requestMatchers(HttpMethod.POST, WHITE_LIST_URL)
                                 .permitAll()
+                                .requestMatchers(HttpMethod.GET, WHITE_LIST_URL)
+                                .permitAll()
                                 .anyRequest()
                                 .authenticated()
                 )
